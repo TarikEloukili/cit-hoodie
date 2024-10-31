@@ -1,12 +1,16 @@
 
-        // Set your target date and time here
+       //TODO: Define The date / Add hoodie front / Preorder Link
+   
+       
+       
+       // Set your target date and time here
         const targetDate = new Date("November 4, 2024 23:59:59").getTime();
       
         function updateCountdown() {
             const now = new Date().getTime();
             const distance = targetDate - now;
-            // Hoodie is released
-            if (distance < 0) {
+     
+            if (distance > 0) {
                 document.getElementById("days").textContent = "00";
                 document.getElementById("hours").textContent = "00";
                 document.getElementById("minutes").textContent = "00";

@@ -13,6 +13,8 @@
                 document.getElementById("seconds").textContent = "00";
                 clearInterval(countdownInterval);
                 document.getElementById("akram").classList.remove("hidden");
+                document.getElementById("footer").classList.remove("mt-40");
+                document.getElementById("footer").classList.add("mt-16");
                 return;
             }
 

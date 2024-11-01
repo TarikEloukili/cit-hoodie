@@ -4,7 +4,7 @@
        
        
        // Set your target date and time here
-        const targetDate = new Date("November 4, 2024 23:59:59").getTime();
+        const targetDate = new Date("November 4, 2024 17:30:00").getTime();
       
         function updateCountdown() {
             const now = new Date().getTime();

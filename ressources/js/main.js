@@ -10,7 +10,7 @@
             const now = new Date().getTime();
             const distance = targetDate - now;
      
-            if (distance > 0) {
+            if (distance <= 0) {
                 document.getElementById("days").textContent = "00";
                 document.getElementById("hours").textContent = "00";
                 document.getElementById("minutes").textContent = "00";
